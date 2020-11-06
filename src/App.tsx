@@ -1,8 +1,9 @@
 import React from 'react';
+import { Form } from './components/form';
 
 const App = () => (
   <div>
-    <h1>App</h1>
+    <Form />
   </div>
 );
 
