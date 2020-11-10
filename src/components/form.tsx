@@ -1,4 +1,5 @@
 import React from 'react';
+import cssModule from './form.module.css';
 import { useForm } from 'react-hook-form';
 
 interface Profile {
@@ -15,7 +16,7 @@ export const Form: React.FC = () => {
   });
 
   return (
-    <div>
+    <div className={cssModule.container}>
       <h1>Profile</h1>
       <form onSubmit={onSubmit}>
         <div>
